@@ -7,25 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1381E19820A488E00005A3FB /* mnistCNN.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 1381E19720A488DF0005A3FB /* mnistCNN.mlmodel */; };
-		13A4F10D20A444F900544673 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13A4F10B20A444F900544673 /* Main.storyboard */; };
-		A8363E4B1EF337AE00204285 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8363E4A1EF337AE00204285 /* AppDelegate.swift */; };
-		A8363E4D1EF337AE00204285 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8363E4C1EF337AE00204285 /* ViewController.swift */; };
-		A8363E521EF337AE00204285 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8363E511EF337AE00204285 /* Assets.xcassets */; };
-		A8363E551EF337AE00204285 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8363E531EF337AE00204285 /* LaunchScreen.storyboard */; };
-		A8363E5F1EF33C9C00204285 /* DrawView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8363E5E1EF33C9C00204285 /* DrawView.swift */; };
+		1384002E20A48F8000A08A67 /* DrawView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1384002120A48F8000A08A67 /* DrawView.swift */; };
+		1384002F20A48F8000A08A67 /* Base.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 1384002220A48F8000A08A67 /* Base.lproj */; };
+		1384003020A48F8000A08A67 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1384002320A48F8000A08A67 /* Main.storyboard */; };
+		1384003120A48F8000A08A67 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1384002620A48F8000A08A67 /* Info.plist */; };
+		1384003220A48F8000A08A67 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1384002720A48F8000A08A67 /* AppDelegate.swift */; };
+		1384003320A48F8000A08A67 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1384002820A48F8000A08A67 /* Assets.xcassets */; };
+		1384003420A48F8000A08A67 /* mnistCNN_backup.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 1384002920A48F8000A08A67 /* mnistCNN_backup.mlmodel */; };
+		1384003520A48F8000A08A67 /* mnistCNN.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 1384002A20A48F8000A08A67 /* mnistCNN.mlmodel */; };
+		1384003620A48F8000A08A67 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1384002B20A48F8000A08A67 /* ViewController.swift */; };
+		1384003720A48F8000A08A67 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1384002C20A48F8000A08A67 /* LaunchScreen.storyboard */; };
+		1399DCFC20A48EC3005AC803 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1399DCFB20A48EC3005AC803 /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1381E19720A488DF0005A3FB /* mnistCNN.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = mnistCNN.mlmodel; sourceTree = "<group>"; };
-		13A4F10C20A444F900544673 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "../../iOS-CoreML-MNIST-master/iOS-CoreML-MNIST/Base.lproj/Main.storyboard"; sourceTree = "<group>"; };
+		1384002120A48F8000A08A67 /* DrawView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawView.swift; sourceTree = "<group>"; };
+		1384002220A48F8000A08A67 /* Base.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Base.lproj; sourceTree = "<group>"; };
+		1384002420A48F8000A08A67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1384002520A48F8000A08A67 /* Go-Digits-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Go-Digits-Bridging-Header.h"; sourceTree = "<group>"; };
+		1384002620A48F8000A08A67 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1384002720A48F8000A08A67 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1384002820A48F8000A08A67 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1384002920A48F8000A08A67 /* mnistCNN_backup.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = mnistCNN_backup.mlmodel; sourceTree = "<group>"; };
+		1384002A20A48F8000A08A67 /* mnistCNN.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = mnistCNN.mlmodel; sourceTree = "<group>"; };
+		1384002B20A48F8000A08A67 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1384002D20A48F8000A08A67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1399DCFB20A48EC3005AC803 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		A8363E471EF337AE00204285 /* Go-Digits.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Go-Digits.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A8363E4A1EF337AE00204285 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A8363E4C1EF337AE00204285 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A8363E511EF337AE00204285 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A8363E541EF337AE00204285 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		A8363E561EF337AE00204285 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A8363E5E1EF33C9C00204285 /* DrawView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,7 +50,8 @@
 		A8363E3E1EF337AE00204285 = {
 			isa = PBXGroup;
 			children = (
-				A8363E491EF337AE00204285 /* iOS-CoreML-MNIST */,
+				1399DCFB20A48EC3005AC803 /* Default-568h@2x.png */,
+				A8363E491EF337AE00204285 /* Go-Digits */,
 				A8363E481EF337AE00204285 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -55,19 +64,22 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A8363E491EF337AE00204285 /* iOS-CoreML-MNIST */ = {
+		A8363E491EF337AE00204285 /* Go-Digits */ = {
 			isa = PBXGroup;
 			children = (
-				1381E19720A488DF0005A3FB /* mnistCNN.mlmodel */,
-				13A4F10B20A444F900544673 /* Main.storyboard */,
-				A8363E4A1EF337AE00204285 /* AppDelegate.swift */,
-				A8363E4C1EF337AE00204285 /* ViewController.swift */,
-				A8363E511EF337AE00204285 /* Assets.xcassets */,
-				A8363E531EF337AE00204285 /* LaunchScreen.storyboard */,
-				A8363E561EF337AE00204285 /* Info.plist */,
-				A8363E5E1EF33C9C00204285 /* DrawView.swift */,
+				1384002720A48F8000A08A67 /* AppDelegate.swift */,
+				1384002820A48F8000A08A67 /* Assets.xcassets */,
+				1384002220A48F8000A08A67 /* Base.lproj */,
+				1384002120A48F8000A08A67 /* DrawView.swift */,
+				1384002520A48F8000A08A67 /* Go-Digits-Bridging-Header.h */,
+				1384002620A48F8000A08A67 /* Info.plist */,
+				1384002C20A48F8000A08A67 /* LaunchScreen.storyboard */,
+				1384002320A48F8000A08A67 /* Main.storyboard */,
+				1384002920A48F8000A08A67 /* mnistCNN_backup.mlmodel */,
+				1384002A20A48F8000A08A67 /* mnistCNN.mlmodel */,
+				1384002B20A48F8000A08A67 /* ViewController.swift */,
 			);
-			path = "iOS-CoreML-MNIST";
+			path = "Go-Digits";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -102,7 +114,7 @@
 				TargetAttributes = {
 					A8363E461EF337AE00204285 = {
 						CreatedOnToolsVersion = 9.0;
-						LastSwiftMigration = 0900;
+						LastSwiftMigration = 0930;
 					};
 				};
 			};
@@ -129,9 +141,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				13A4F10D20A444F900544673 /* Main.storyboard in Resources */,
-				A8363E551EF337AE00204285 /* LaunchScreen.storyboard in Resources */,
-				A8363E521EF337AE00204285 /* Assets.xcassets in Resources */,
+				1384003120A48F8000A08A67 /* Info.plist in Resources */,
+				1384003020A48F8000A08A67 /* Main.storyboard in Resources */,
+				1384002F20A48F8000A08A67 /* Base.lproj in Resources */,
+				1384003720A48F8000A08A67 /* LaunchScreen.storyboard in Resources */,
+				1399DCFC20A48EC3005AC803 /* Default-568h@2x.png in Resources */,
+				1384003320A48F8000A08A67 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,28 +157,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A8363E4D1EF337AE00204285 /* ViewController.swift in Sources */,
-				A8363E5F1EF33C9C00204285 /* DrawView.swift in Sources */,
-				1381E19820A488E00005A3FB /* mnistCNN.mlmodel in Sources */,
-				A8363E4B1EF337AE00204285 /* AppDelegate.swift in Sources */,
+				1384003620A48F8000A08A67 /* ViewController.swift in Sources */,
+				1384003220A48F8000A08A67 /* AppDelegate.swift in Sources */,
+				1384003420A48F8000A08A67 /* mnistCNN_backup.mlmodel in Sources */,
+				1384003520A48F8000A08A67 /* mnistCNN.mlmodel in Sources */,
+				1384002E20A48F8000A08A67 /* DrawView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		13A4F10B20A444F900544673 /* Main.storyboard */ = {
+		1384002320A48F8000A08A67 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				13A4F10C20A444F900544673 /* Base */,
+				1384002420A48F8000A08A67 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		A8363E531EF337AE00204285 /* LaunchScreen.storyboard */ = {
+		1384002C20A48F8000A08A67 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				A8363E541EF337AE00204285 /* Base */,
+				1384002D20A48F8000A08A67 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -288,11 +304,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = "iOS-CoreML-MNIST/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Go-Digits/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sri.iOS.iOS-CoreML-MNIST";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Go-Digits/Go-Digits-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -305,11 +321,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = "iOS-CoreML-MNIST/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Go-Digits/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sri.iOS.iOS-CoreML-MNIST";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Go-Digits/Go-Digits-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
